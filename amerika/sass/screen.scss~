@@ -1,0 +1,71 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body{
+    background-color:#999;
+    margin:0;
+    padding:0;
+}
+.content{
+    width:900px;
+    background-color:#555;
+    margin:0 auto;
+    .header{
+        height:200px;
+    }
+    .redes{
+        float:right;
+        margin-right:20px;
+        a{
+            text-decoration:none;
+        }
+    }
+    .btn{
+        a{
+            display:inline-block;
+            color:white;
+            text-decoration:none;
+        }
+    }
+    .shows{
+        width:450px;
+        float:left;
+        div{
+            height:200px;
+            text-align:center;
+            .show-date{
+            }
+            .show-tit{
+                color:red;
+            }
+            .show-info{
+                font-size:14px;
+            }
+        }
+    }
+    .noticias{
+        width:450px;
+        height: 400px;
+        float:right;
+        .not{
+            height:100px;
+        }
+    }
+    .fp{
+        width:100%;
+        .fp-01{
+            width:450px;
+            height:200px;
+            float:left;
+        }
+        .fp-02{
+            width:450px;
+            height:200px;
+            float:right;
+        }
+    }
+}
